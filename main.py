@@ -9,10 +9,6 @@ app = Flask(__name__)
 def hello():
     return "¡Dave ve zoofalia!!! brulrlrlrlrl"
 
-# Ejecuta la aplicación en el servidor web integrado de Flask
-if __name__ == '__main__':
-    app.run()
-
 # Obtén el número del puerto asignado por Heroku o utiliza el puerto 5000 de forma predeterminada
 port = int(os.environ.get('PORT', 5000))
 
